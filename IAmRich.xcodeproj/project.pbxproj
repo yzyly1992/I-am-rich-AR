@@ -9,18 +9,28 @@
 /* Begin PBXBuildFile section */
 		3D267CDF2A4FC7F800A286B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CDE2A4FC7F800A286B1 /* AppDelegate.swift */; };
 		3D267CE12A4FC7F800A286B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CE02A4FC7F800A286B1 /* ContentView.swift */; };
-		3D267CE32A4FC7F800A286B1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CE22A4FC7F800A286B1 /* Experience.rcproject */; };
 		3D267CE52A4FC7F900A286B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D267CE42A4FC7F900A286B1 /* Assets.xcassets */; };
 		3D267CE82A4FC7F900A286B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D267CE72A4FC7F900A286B1 /* Preview Assets.xcassets */; };
+		3D267CF32A4FC9F800A286B1 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CF22A4FC9F800A286B1 /* ARViewContainer.swift */; };
+		3D267CF52A4FCA2600A286B1 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CF42A4FCA2600A286B1 /* ButtonBarView.swift */; };
+		3D267CF72A4FCA6300A286B1 /* TDText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D267CF62A4FCA6300A286B1 /* TDText.swift */; };
+		3D6A9C872A57539700BCE2A1 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A9C862A57539700BCE2A1 /* InputBarView.swift */; };
+		3DC62D862A5254B0001D5E6C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC62D852A5254B0001D5E6C /* StartScreen.swift */; };
+		3DD646CF2A58B5DD007A44AA /* AdaptsToKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD646CE2A58B5DD007A44AA /* AdaptsToKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D267CDB2A4FC7F800A286B1 /* IAmRich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmRich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D267CDE2A4FC7F800A286B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D267CE02A4FC7F800A286B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3D267CE22A4FC7F800A286B1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		3D267CE42A4FC7F900A286B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D267CE72A4FC7F900A286B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D267CF22A4FC9F800A286B1 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		3D267CF42A4FCA2600A286B1 /* ButtonBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBarView.swift; sourceTree = "<group>"; };
+		3D267CF62A4FCA6300A286B1 /* TDText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDText.swift; sourceTree = "<group>"; };
+		3D6A9C862A57539700BCE2A1 /* InputBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBarView.swift; sourceTree = "<group>"; };
+		3DC62D852A5254B0001D5E6C /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		3DD646CE2A58B5DD007A44AA /* AdaptsToKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptsToKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,9 @@
 		3D267CDD2A4FC7F800A286B1 /* IAmRich */ = {
 			isa = PBXGroup;
 			children = (
+				3D267CF02A4FC8DF00A286B1 /* Model */,
+				3D267CEE2A4FC8B800A286B1 /* View */,
 				3D267CDE2A4FC7F800A286B1 /* AppDelegate.swift */,
-				3D267CE02A4FC7F800A286B1 /* ContentView.swift */,
-				3D267CE22A4FC7F800A286B1 /* Experience.rcproject */,
 				3D267CE42A4FC7F900A286B1 /* Assets.xcassets */,
 				3D267CE62A4FC7F900A286B1 /* Preview Content */,
 			);
@@ -68,6 +78,27 @@
 				3D267CE72A4FC7F900A286B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D267CEE2A4FC8B800A286B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D267CE02A4FC7F800A286B1 /* ContentView.swift */,
+				3D267CF22A4FC9F800A286B1 /* ARViewContainer.swift */,
+				3D267CF42A4FCA2600A286B1 /* ButtonBarView.swift */,
+				3DC62D852A5254B0001D5E6C /* StartScreen.swift */,
+				3D6A9C862A57539700BCE2A1 /* InputBarView.swift */,
+				3DD646CE2A58B5DD007A44AA /* AdaptsToKeyboard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D267CF02A4FC8DF00A286B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D267CF62A4FCA6300A286B1 /* TDText.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D267CF52A4FCA2600A286B1 /* ButtonBarView.swift in Sources */,
 				3D267CE12A4FC7F800A286B1 /* ContentView.swift in Sources */,
+				3D267CF32A4FC9F800A286B1 /* ARViewContainer.swift in Sources */,
+				3DC62D862A5254B0001D5E6C /* StartScreen.swift in Sources */,
+				3D267CF72A4FCA6300A286B1 /* TDText.swift in Sources */,
+				3DD646CF2A58B5DD007A44AA /* AdaptsToKeyboard.swift in Sources */,
+				3D6A9C872A57539700BCE2A1 /* InputBarView.swift in Sources */,
 				3D267CDF2A4FC7F800A286B1 /* AppDelegate.swift in Sources */,
-				3D267CE32A4FC7F800A286B1 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +307,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IAmRich/Preview Content\"";
+				DEVELOPMENT_TEAM = MFX5W83282;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "AR I Am Rich";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to run Augmented Reality";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo library is used to save the AR photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,15 +342,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IAmRich/Preview Content\"";
+				DEVELOPMENT_TEAM = MFX5W83282;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "AR I Am Rich";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to run Augmented Reality";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo library is used to save the AR photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
